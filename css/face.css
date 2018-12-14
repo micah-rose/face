@@ -5,10 +5,12 @@
 
 .all-content{
     width: 525px;
+    height: 400px;
     display: block;
     margin: auto;
   width: 50%;
   padding: 10px;
+  overflow: hidden;
   background-color: lightgray;
     border: solid 10px gray;
 }
@@ -37,4 +39,31 @@
     font-size: 17px;
     margin-top: 10px;
     padding: 5px 10px;
+}
+
+#face-image{
+    position: absolute;
+}
+
+#eyes-image{
+    width: 200px;
+    margin-left: 635px;
+    margin-top: 85px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#nose-image{
+    width: 100px;
+    position: relative;
+    margin-left: 170px;
+    margin-top: 170px;
+}
+
+#mouth-image{
+    width: 150px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: -120px;
 }
